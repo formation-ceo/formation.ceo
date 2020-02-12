@@ -1,0 +1,31 @@
+@import "../../scss/custom";
+@import "~bootstrap/scss/bootstrap";
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.layout-header {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 1rem;
+}
+
+.layout-logo {
+  width: 412.5px;
+  height: 153.75px;
+}
+
+.layout-main {
+  max-width: 860px;
+  margin: 0 2rem 2rem;
+}
+
+.layout-footer {
+  padding: 1rem 2rem;
+  margin-top: auto;
+}
